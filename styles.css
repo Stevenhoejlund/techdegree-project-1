@@ -238,5 +238,12 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
-
+.icons{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+  align-self: center;
+}
 }
