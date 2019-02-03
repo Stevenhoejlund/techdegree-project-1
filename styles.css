@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #222;
   background: #f7f5f0;
 }
@@ -70,6 +70,16 @@ a:hover {
   overflow: hidden;
   padding-top: 60px;
 }
+.hobby {
+  overflow: auto;
+  float: center;
+  width: auto;
+  text-align: center;
+  background: url('images/hobby.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
 header {
   line-height: 1.5;
 }
@@ -77,12 +87,12 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
+  border-radius: 10%;
+  border: 3.5px solid #ff99ff;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.05) rotate(1deg);
 }
 .tag {
   background-color: #efefef;
@@ -101,13 +111,23 @@ header .profile-image:hover {
   margin: 250px auto 10px auto;
 }
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: #8d47f2;
+  color: white;
 }
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.card_hobby {
+  margin: 50px;
+  padding: 20px 40px 40px;
+  max-width: 1200px;
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
@@ -126,14 +146,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #cdaef9;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #ff99ff;
 }
 
 footer {
@@ -187,7 +207,7 @@ a.social:hover {
 @media screen and (min-width: 720px) {
 
   .flex {
-      display: -ms-flexbox;      /* TWEENER - IE 10 */
+
       display: flex;
       max-width: 1200px;
       -ms-flex-pack: distribute;
