@@ -72,7 +72,7 @@ a:hover {
 }
 .hobby {
   overflow: auto;
-  float: center;
+  float: inherit;
   width: auto;
   text-align: center;
   background: url('images/hobby.jpg') no-repeat top center ;
